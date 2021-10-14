@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="27" viewBox="0 0 17 30">
+  <defs>
+    <filter id="стрелочка_copy" x="0" y="0" width="17" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.5" dy="0.866" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#211e1f" flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#стрелочка_copy)">
+    <image id="стрелочка_copy-2" data-name="стрелочка copy" width="14" height="27" transform="translate(1 0.63)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAbCAYAAABMU775AAAABHNCSVQICAgIfAhkiAAAANVJREFUOE+d0yEOQjEMBmAeCQTBUyQoDA7JDdDY53FcAMUVUBwAicVjMBiCxsBxxl/CyBjd1p8mTfaSfsnW9lXOuRYZbdRfKhJ2gW7ICQP7AA/kSG5ohUPU3pED/ywLHL+vV4e9KMEpiq/IXtzAHJyh+ITsaF1PwQbFB6S0Xg0NLlG5k8bl5hvDNYo3loUI4RZgZUHhHPf4WFiRh0cc5gzy8IyDtJ4K/0Yah82hcDwOM9YWwIRTK1fEuSXP4tJvlcQlKLNVsQWq2Ap/MAO/MAs/+B/4wk+esms529ul8AAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>
